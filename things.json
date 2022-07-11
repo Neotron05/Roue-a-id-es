@@ -1,0 +1,78 @@
+{
+  "idees": [
+    {
+      "nom": "puissance 4",
+      "description" : "Faire un puissance 4 graphique avec possibilite de multi joueur"
+    },
+    {
+      "nom": "Jeu de Dames",
+      "description" : "Faire un jeu de dames graphique avec possibilite de multi joueur"
+    },
+    {
+      "nom": "snake",
+      "description" : "Faire un snake graphique"
+    },
+    {
+      "nom": "casse-brique",
+      "description" : "Faire un cassebrique graphique"
+    },
+    {
+      "nom": "memory puzzle",
+      "description" : "jeu ou il faut retrouver les paires"
+    },
+    {
+      "nom": "Flood it",
+      "description" : "Construisez une grille, de par exemple 50 cases de largeur et de longueur (chaque case doit être bien visible a l’oeil nu). Au lancement du jeu, remplissez les cases de la grille de couleurs aleatoires, parmi une palette de par exemple six couleurs. La palette est fixee a l’avance et ne change jamais. Vous obtenez une grille coloree.\n\nA tout moment, le joueur peut choisir une des couleurs de la palette. Puis, en cliquant sur une case, il la transforme et lui donne la couleur qu’il a choisi, a elle ainsi qu’a toutes les cases adjacentes de la même couleur. S’il touche un carre de 4x4 cases vertes avec du rouge, il obtient un carre de 4x4 cases rouges.\n\nLe but est de colorier toute la grille avec le moins de coups possibles. C’est original, fun a jouer et assez simple a developper !"
+    },
+    {
+      "nom": "pong",
+      "description": "bon...."
+    },
+    {
+      "nom": "shoot 'em up",
+      "description" : "space invaders like"
+    },
+    {
+      "nom": "platformer",
+      "description" : "jeu de palteforme, privilegier unity ou autre moteur de jeu"
+    },
+    {
+      "nom": "word typer",
+      "description" : "jeu ou il faut taper les mots au clavier avant qu'ils ne tombent"
+    },
+    {
+      "nom": "2048",
+      "description" : "jeu du 2048"
+    },
+    {
+      "nom": "jeu du carre",
+      "description" : "un nombre est tire au hasard et il faut le retrouver. Pour cela on entre un nombre et le jeu nous renvoie le carre de la difference"
+    }
+  ],
+  "langages": [
+    {
+      "nom": "Python"
+    },
+    {
+      "nom": "Java"
+    },
+    {
+      "nom": "C#"
+    },
+    {
+      "nom": "C++"
+    },
+    {
+      "nom": "WEB (JS, HTML ...)"
+    },
+    {
+      "nom": "C"
+    },
+    {
+      "nom": "Ruby"
+    },
+    {
+      "nom": "Lua"
+    }
+  ]
+}
