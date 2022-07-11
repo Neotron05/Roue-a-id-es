@@ -6,11 +6,11 @@ def read(url):
     jsonFile = open(url, 'r')
     data = jsonFile.read()
     jsonFile.close()
-
     # Parse the json
     objects = json.loads(data)
 
     return objects
+
 
 ''' probleme d'encodage
 
@@ -33,6 +33,7 @@ def add(url, opt, obj):
     obj.encode()
     json.dump(obj,jsonFile)
 '''
+
 
 def printJson(url):
     print(read(url))

@@ -99,7 +99,7 @@ def spin(canvas, wheel, label, root, idees, langages):
                 list[i] = list[i + 1]
                 colors[i] = colors[i + 1]
         draw(canvas, wheel, label, root, idees, langages)
-        time.sleep(3 / rand)
+        time.sleep(0.3 / rand)
         canvas.update()
     # add a label to display the result
     if spining_jeu:
@@ -134,10 +134,15 @@ def draw_result(canvas, root):
     root.geometry("1200x800")
     canvas = Canvas(root, width=1000, height=700)
     canvas.pack()
-    result_jeu = Label(canvas, text=jeu)
-    result_jeu.pack()
-    result_langage = Label(canvas, text=langage)
-    result_langage.pack()
+    for i in range(len(objects["idees"])):
+        if objects["idees"][i]['nom'] == jeu:
+            canvas.create_text(300, 300, text=objects["idees"][i]['nom'])
+            canvas.create_text(300, 400, text=objects["idees"][i]['description'])
+    for i in range(len(objects["langages"])):
+        if objects["langages"][i]['nom'] == langage:
+            canvas.create_text(700, 300, text=objects["langages"][i]['nom'])
+            # this shows an error bc langages don't have a description but without that line everything seems to disappear
+            canvas.create_text(700, 400, text=objects["langages"][i]['description'])
 
     restart_button = Button(canvas, text="Restart", command=lambda: restart(root))
     restart_button.pack()
