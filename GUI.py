@@ -99,7 +99,7 @@ def spin(canvas, wheel, label, root, idees, langages):
                 list[i] = list[i + 1]
                 colors[i] = colors[i + 1]
         draw(canvas, wheel, label, root, idees, langages)
-        time.sleep(0.5 / rand)
+        time.sleep(3 / rand)
         canvas.update()
     # add a label to display the result
     if spining_jeu:
